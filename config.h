@@ -2,7 +2,8 @@
  * recompile using the make command */
 static const Block blocks[] = {
 	/* command                interval    signal */
-	{ "date '+%a %b %d 󰃭 %H:%M'",            30,      0 },
+        { "cat ~/.cache/dwmblocks/news",        0,        5 },
+	{ "date '+%a, %d %b 󰃭 %H:%M'",            30,      0 },
         { "$HOME/dwmblocks/wifi.sh",            5,        1 },
 };
 
