@@ -1,0 +1,11 @@
+#!/bin/sh
+# Minimal .xprofile for admin user
+# No dwmblocks, no news ticker, no audio optimizations
+
+# Generate + set wallpaper each graphical login
+if [ -x "$HOME/desktop.sh" ]; then
+  "$HOME/desktop.sh" &
+fi
+
+# Admin gets a clean bar with just basic info (or no bar at all)
+# DWM's built-in bar is sufficient
