@@ -61,7 +61,7 @@ elif echo "$WEATHER_LOWER" | grep -qiE "wind|breezy|gale|storm"; then
 fi
 
 # Format output: icon + weather description
-OUTPUT="$ICON $WEATHER"
+OUTPUT="$WEATHER $ICON"
 echo "$OUTPUT" | tr -d '\n'  # ensure no newlines
 
 # Cache for next time

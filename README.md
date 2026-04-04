@@ -12,6 +12,14 @@ Afterwards enter the following command to build and install slock
 
     make clean install
 
+Updating dwmblocks
+------------------
+After making changes to scripts or config:
+
+1. Rebuild and install: `sudo make clean install`
+2. Clear any cached block output (e.g., `rm ~/.cache/dwmblocks/*`)
+3. Restart dwmblocks: `pkill dwmblocks && dwmblocks &`
+
 Running dwm
 -----------
 Add the following line to your .xinitrc to start dwmblocks using startx:
