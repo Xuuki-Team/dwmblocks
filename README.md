@@ -20,6 +20,16 @@ After making changes to scripts or config:
 2. Clear any cached block output (e.g., `rm ~/.cache/dwmblocks/*`)
 3. Restart dwmblocks: `pkill dwmblocks && dwmblocks &`
 
+Icons
+-----
+The status icons (weather symbols, etc.) require Nerd Fonts Symbols:
+
+    sudo pacman -S ttf-nerd-fonts-symbols
+
+Common icons used:
+- `󰖐` cloudy, `󰖗` rain/umbrella, `󰖘` snow
+- `󰖙` sunny, `󰖕` partly cloudy, `󰖝` windy
+
 Running dwm
 -----------
 Add the following line to your .xinitrc to start dwmblocks using startx:
