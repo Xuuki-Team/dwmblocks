@@ -1,11 +1,10 @@
 /* modify this file to change what commands output to your statusbar, and
  * recompile using the make command */
+
 static const Block blocks[] = {
 	/* command                interval    signal */
-        { "cat ~/.cache/dwmblocks/news",        0,        5 },
-	{ "$HOME/dwmblocks/weather.sh",         300,      0 },
 	{ "date '+%a, %d %b 󰃭 %H:%M'",            30,      0 },
-        { "$HOME/dwmblocks/wifi.sh",            5,        1 },
+	{ "/home/admin/Projects/dwmblocks/wifi.sh",            5,        1 },
 };
 
 /* sets delimeter between status commands. NULL character ('\0') means no
