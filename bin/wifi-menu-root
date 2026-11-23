@@ -1,0 +1,2 @@
+#!/bin/bash
+exec sudo -n sh -c "$HOME/dwmblocks/bin/wifi-menu.sh"
